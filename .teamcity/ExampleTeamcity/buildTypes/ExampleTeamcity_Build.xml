@@ -28,7 +28,7 @@
           <equals name="teamcity.build.branch.is_default" value="true" />
         </conditions>
         <parameters>
-          <param name="goals" value="clean deploy" />
+          <param name="goals" value="mvn clean deploy" />
           <param name="localRepoScope" value="agent" />
           <param name="maven.path" value="%teamcity.tool.maven.DEFAULT%" />
           <param name="pomLocation" value="pom.xml" />
